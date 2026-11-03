@@ -1,0 +1,17 @@
+{
+  "name": "library-api-playwright-tests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pruebas funcionales e integradas para Library REST API usando Playwright",
+  "scripts": {
+    "test": "playwright test",
+    "test:functional": "playwright test tests/functional",
+    "test:integration": "playwright test tests/integration",
+    "test:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^22.15.30",
+    "typescript": "^5.8.3"
+  }
+}
